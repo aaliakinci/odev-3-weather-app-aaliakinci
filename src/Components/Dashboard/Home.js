@@ -15,8 +15,8 @@ function Home() {
 	};
 	const homePage = () => {
 		return (
-			<div className="row w-75 align-items-center">
-				<h2 className=" text-white">Hava Durumu</h2>
+			<div className="row align-items-center">
+				<h1 className=" text-white lead">Weather Forecast</h1>
 				<div className="card w-100 p-4 bg-dark" style={{ borderRadius: '2rem' }}>
 					<div className="col-md-3 d-flex justify-content-start">
 						<SelectBox />

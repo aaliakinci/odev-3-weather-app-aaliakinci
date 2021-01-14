@@ -13,7 +13,7 @@ function App() {
 					className="container-fluid d-flex align-items-center App justify-content-center"
 					style={{ minHeight: '65rem' }}
 				>
-					<Home/>
+					<Home />
 				</div>
 			</WeatherProvider>
 		</CityProvider>

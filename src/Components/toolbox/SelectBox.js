@@ -9,7 +9,7 @@ function SelectBox() {
 	}
 	return (
 		<div className="form-group">
-    <label htmlFor="listCity">Example select</label>
+    <label className="text-white lead" htmlFor="listCity">Choose City</label>
     <select className="form-control" id="listCity" onChange={(e)=>handleChange(e)}>
       {city.map(cityItem => (
 				<option name={cityItem.name} value={JSON.stringify(cityItem)} key={cityItem.id}>{cityItem.name}</option>
