@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
 
+import { CityProvider } from './Contexts/CityContext';
+
+import './App.css';
+import { WeatherProvider } from './Contexts/WeatherContext';
+import Home from './Components/Dashboard/Home';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<CityProvider>
+			<WeatherProvider>
+				<div
+					className="container-fluid d-flex align-items-center App justify-content-center"
+					style={{ minHeight: '65rem' }}
+				>
+					<Home/>
+				</div>
+			</WeatherProvider>
+		</CityProvider>
+	);
 }
 
 export default App;
