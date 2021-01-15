@@ -17,7 +17,7 @@ export const WeatherProvider = ({ children }) => {
 		}).catch((err)=>{
 			console.log(err);
 		});
-	}, [selectedCity]);
+	}, [selectedCity,url]);
 	console.log(weather)
 	const values = {
 		weather,

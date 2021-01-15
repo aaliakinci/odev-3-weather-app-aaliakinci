@@ -1,4 +1,4 @@
-export default {
+const initialState={
 city:[
 		{
 			"id": 1,
@@ -650,3 +650,5 @@ city:[
 		}
 	],
 }
+
+export default initialState;
