@@ -8,7 +8,6 @@ function App() {
 			<WeatherProvider>
 				<div
 					className="container-fluid d-flex align-items-center App justify-content-center"
-					style={{ minHeight: '65rem' }}
 				>
 					<Home />
 				</div>
