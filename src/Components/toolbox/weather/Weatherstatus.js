@@ -57,7 +57,7 @@ function Weatherstatus({ weatherStatus, temp, first, tempMin, day }) {
 					<div className="row w-100">
 						{first === true ? (
 							<div className="col-12 d-flex justify-content-start">
-								<h2 className="">{selectedCity.name}</h2>
+								<h2 >{selectedCity.name}</h2>
 							</div>
 						) : (
 							''
@@ -94,7 +94,7 @@ function Weatherstatus({ weatherStatus, temp, first, tempMin, day }) {
 					<div className="row w-100">
 						{first === true ? (
 							<div className="col-12 d-flex justify-content-start">
-								<h2 className="">{selectedCity.name}</h2>
+								<h2>{selectedCity.name}</h2>
 							</div>
 						) : (
 							''
@@ -138,7 +138,7 @@ function Weatherstatus({ weatherStatus, temp, first, tempMin, day }) {
 					<div className="row">
 						{first === true ? (
 							<div className="col-12 d-flex justify-content-start">
-								<h2 className="">{selectedCity.name}</h2>
+								<h2>{selectedCity.name}</h2>
 							</div>
 						) : (
 							''
@@ -190,7 +190,7 @@ function Weatherstatus({ weatherStatus, temp, first, tempMin, day }) {
 					<div className="row w-100">
 						{first === true ? (
 							<div className="col-12 d-flex justify-content-end p-0">
-								<h2 className="">{selectedCity.name}</h2>
+								<h2>{selectedCity.name}</h2>
 							</div>
 						) : (
 							''
