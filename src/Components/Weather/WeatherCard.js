@@ -4,7 +4,7 @@ import './styles.css';
 import WeatherContext from '../../Contexts/WeatherContext';
 function WeatherCard() {
 	const { weather } = useContext(WeatherContext);
-	const date =new Date;
+	const date =new Date();
 	const dateDay = date.getDay();
 	return (
 		<div className="container-fluid bg-dark text-white w-100 p-0">

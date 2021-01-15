@@ -1,7 +1,5 @@
 import './App.css';
-
 import { CityProvider } from './Contexts/CityContext';
-
 import './App.css';
 import { WeatherProvider } from './Contexts/WeatherContext';
 import Home from './Components/Dashboard/Home';
