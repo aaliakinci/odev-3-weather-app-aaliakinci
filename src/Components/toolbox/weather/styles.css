@@ -20,14 +20,8 @@
 	margin: 0.3em;
 	border-radius: 100%;
 	box-shadow: 0 0 0 0.05em var(--ring) inset, 0 0 0.3em -0.03em var(--shadow);
-	background: linear-gradient(
-		to var(--blend-dir),
-		var(--blend1) var(--blend-from),
-		var(--blend2) var(--blend-to)
-	);
- 
 }
- 
+
 [icon]::after {
 	content: attr(data-label);
 	position: absolute;
