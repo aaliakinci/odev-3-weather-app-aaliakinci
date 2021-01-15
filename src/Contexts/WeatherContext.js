@@ -11,6 +11,7 @@ export const WeatherProvider = ({ children }) => {
 	const [loading,setLoading] = useState(false);
 	useEffect(() => {
 		axios.get(url).then((response)=>{
+			console.log(response.data)
 			setWeather(response.data.daily)
 			setLoading(true);
 		}).catch((err)=>{
